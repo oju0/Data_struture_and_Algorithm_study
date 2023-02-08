@@ -2,7 +2,7 @@
 ## Queue
 FIFO(First In Firts out) 규칙의 순차적 자료구조
 stack: 말미잘
-queue: th
+queue: 소
 |      | stack | queue|
 |-----|-----|-----|
 |insert| push | enqeue|
