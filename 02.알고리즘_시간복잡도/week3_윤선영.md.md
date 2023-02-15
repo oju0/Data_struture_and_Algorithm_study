@@ -1,6 +1,6 @@
 # Week3_알고리즘 시간복잡도
 
-## <자료구조와 알고리즘 성능1>
+## <알고리즘 시간복잡도1&2>
 
 ![](C:\Users\multicampus\AppData\Roaming\marktext\images\2023-02-15-19-32-12-image.png)
 
@@ -79,3 +79,31 @@
 ![](C:\Users\multicampus\AppData\Roaming\marktext\images\2023-02-15-19-55-29-image.png)
 
 ![](C:\Users\multicampus\AppData\Roaming\marktext\images\2023-02-15-19-57-19-image.png)
+
+## <알고리즘 시간복잡도 BigO>
+
+![](C:\Users\multicampus\AppData\Roaming\marktext\images\2023-02-15-20-11-11-image.png)
+
+- n이 커지면 T3가 더 빠르게 증가한다!
+
+- 알고리즘의 시간복잡도를 결정하는 것은 증가율이고, 이를 결정하는 건 최고차항이다.
+
+- 이런 아이디어를 통해 알고리즘의 시간복잡도를 간단하게 나타내는 방법을 도출함!
+
+### Big-O표기법 : 수행시간을 함수값을 결정하는 <mark>최고차항</mark>으로 간단히 표기
+
+![](C:\Users\multicampus\AppData\Roaming\marktext\images\2023-02-15-20-15-32-image.png)
+
+- T1(n) = O(n)
+
+- T2(n) = O(n)
+
+- T3(n) = O(n²)
+
+- 수행시간이 상수라면(1, 2, 3, ...) O(1) = O(n의0제곱)
+
+#### 집합으로 Big-O표기법 이해하기
+
+![](C:\Users\multicampus\AppData\Roaming\marktext\images\2023-02-15-20-21-02-image.png)
+
+- O(log₂n)은 O(n)보다 더 완만하게 증가!
