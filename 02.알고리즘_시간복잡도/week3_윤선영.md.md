@@ -2,7 +2,7 @@
 
 ## <알고리즘 시간복잡도1&2>
 
-![](C:\Users\multicampus\AppData\Roaming\marktext\images\2023-02-15-19-32-12-image.png)
+![](./week3_윤선영.md_assets/1.PNG)
 
 - 자료구조 + 알고리즘 : 코드(C, java, Python)를 이용해 컴퓨터로 구현
   
@@ -32,7 +32,7 @@
 
 ### 가상언어 (Psuedo/Virtual Language)
 
-![](C:\Users\multicampus\AppData\Roaming\marktext\images\2023-02-15-19-39-24-image.png)
+![](./week3_윤선영.md_assets/2.PNG)
 
 - 배정, 산술, 비교, 논리, bit-논리같은 기본연산을 표현할 수 있으면 된다.
 
@@ -52,15 +52,15 @@
 
 - 예시
 
-![](C:\Users\multicampus\AppData\Roaming\marktext\images\2023-02-15-19-39-59-image.png)
+![](./week3_윤선영.md_assets/3.PNG)
 
 - 예시에 대해 구체적인 입력을 생각해본다면?
 
-![](C:\Users\multicampus\AppData\Roaming\marktext\images\2023-02-15-19-41-42-image.png)
+![](./week3_윤선영.md_assets/4.PNG)
 
 - but 무한히 많은 input값이 존재하기 때문에, 기본연산이 몇회나 일어나는지 정확히 알기 힘들다! A의 input size에 따라 몇번의 연산이 수행되는지는 계속해서 달라짐! 
   
-  ![](C:\Users\multicampus\AppData\Roaming\marktext\images\2023-02-15-19-45-09-image.png)
+  ![](./week3_윤선영.md_assets/5.PNG)
 
 ### <mark>알고리즘 수행시간 = 최악의 입력에 대한 기본연산 횟수</mark>
 
@@ -68,21 +68,21 @@
   
   - 2n-1번의 기본연산을 수행한다!
   
-  ![](C:\Users\multicampus\AppData\Roaming\marktext\images\2023-02-15-19-51-31-image.png)
+  ![](./week3_윤선영.md_assets/6.PNG)
 
 #### 예시 1) n에 비례해서 수행시간 변화
 
-![](C:\Users\multicampus\AppData\Roaming\marktext\images\2023-02-15-19-53-40-image.png)
+![](./week3_윤선영.md_assets/7.PNG)
 
 #### 예시 2) n의 제곱에 비례해서 수행시간 변화
 
-![](C:\Users\multicampus\AppData\Roaming\marktext\images\2023-02-15-19-55-29-image.png)
+![](./week3_윤선영.md_assets/8.PNG)
 
-![](C:\Users\multicampus\AppData\Roaming\marktext\images\2023-02-15-19-57-19-image.png)
+![](./week3_윤선영.md_assets/9.PNG)
 
 ## <알고리즘 시간복잡도 BigO>
 
-![](C:\Users\multicampus\AppData\Roaming\marktext\images\2023-02-15-20-11-11-image.png)
+![](./week3_윤선영.md_assets/10.PNG)
 
 - n이 커지면 T3가 더 빠르게 증가한다!
 
@@ -92,7 +92,7 @@
 
 ### Big-O표기법 : 수행시간을 함수값을 결정하는 <mark>최고차항</mark>으로 간단히 표기
 
-![](C:\Users\multicampus\AppData\Roaming\marktext\images\2023-02-15-20-15-32-image.png)
+![](./week3_윤선영.md_assets/11.PNG)
 
 - T1(n) = O(n)
 
@@ -104,6 +104,6 @@
 
 #### 집합으로 Big-O표기법 이해하기
 
-![](C:\Users\multicampus\AppData\Roaming\marktext\images\2023-02-15-20-21-02-image.png)
+![](./week3_윤선영.md_assets/12.PNG)
 
 - O(log₂n)은 O(n)보다 더 완만하게 증가!
